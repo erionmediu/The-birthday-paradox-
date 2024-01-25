@@ -264,7 +264,7 @@ comments here :
     }
 
 
-    group_sizes <- 2:50  # From 2 to 100 people in the group
+    group_sizes <- 2:50  # From 2 to 50 people in the group
 
     # Run the simulation for each group size using mapply
     # mapply will apply the run_simulation_uniform function to each group size
