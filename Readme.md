@@ -2,8 +2,16 @@
 
 This document presents an analysis of the birthday paradox. The birthday
 paradox concerns the probability that, in a set of randomly chosen
-people, some pair of them will have the same birthday. We will explore
-this probability through various visualizations and simulations.
+people, some pairs of them will have the same birthday. 
+
+I will explore this occurrence by looking at real-world data from [kaggle](https://www.kaggle.com/).
+Nonetheless, this data is also made available within the repo. Below we start form firstly cleaning and preparing
+the data and later move on to perform an EDA. At the end, we simulate by resampling from the data to calculate
+the probability of two individuals sharing a birthday for different group sizes. Finally, we compare the results
+with the already established observation of the birthday paradox which assumes an underlying uniform distribution 
+of birthdays. 
+
+
 
 # Library Loading
 
@@ -240,7 +248,8 @@ this probability through various visualizations and simulations.
     ## 16         17     0.0236         0.3043
     ##  [ reached 'max' / getOption("max.print") -- omitted 33 rows ]
 
-comments here :
+Above the probabilities of sharing the exact birth date as well as sharing the month and day (as defined within the "Birthday Paradox") are displayed per
+different group sizes.
 
 # Calculating probabilities drawn from a uniform distribution.
 
